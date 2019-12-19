@@ -3745,6 +3745,27 @@ License: Redistributable. See LICENCE.adsp_sst for details
 
 Driver: snd-soc-sof
 
+File: intel/sof/bdw/sof-bdw-v1.3.ri
+Version: 1.3
+File: intel/sof/bdw/sof-bdw-v1.4.1.ri
+File: intel/sof/bdw/sof-bdw-v1.4.1.ldc
+Version: 1.4.1
+Link: intel/sof/sof-bdw.ri -> bdw/sof-bdw-v1.4.1.ri
+
+File: intel/sof/byt/sof-byt-v1.3.ri
+Version: 1.3
+File: intel/sof/byt/sof-byt-v1.4.1.ri
+File: intel/sof/byt/sof-byt-v1.4.1.ldc
+Version: 1.4.1
+Link: intel/sof/sof-byt.ri -> byt/sof-byt-v1.4.1.ri
+
+File: intel/sof/cht/sof-cht-v1.3.ri
+Version: 1.3
+File: intel/sof/cht/sof-cht-v1.4.1.ri
+File: intel/sof/cht/sof-cht-v1.4.1.ldc
+Version: 1.4.1
+Link: intel/sof/sof-cht.ri -> cht/sof-cht-v1.4.1.ri
+
 File: intel/sof/apl/intel/sof-apl-v1.3.ri
 Version: 1.3
 File: intel/sof/apl/intel/sof-apl-v1.4.1.ri
@@ -3755,39 +3776,36 @@ Link: intel/sof/sof-glk.ri -> apl/intel/sof-apl-v1.4.1.ri
 
 File: intel/sof/apl/community/sof-apl-v1.3.ri
 Version 1.3
-Link: intel/sof/community/sof-apl.ri -> ../apl/community/sof-apl-v1.3.ri
+File: intel/sof/apl/community/sof-apl-v1.4.1.ri
+File: intel/sof/apl/community/sof-apl-v1.4.1.ldc
+Version 1.4.1
+Link: intel/sof/community/sof-apl.ri -> ../apl/community/sof-apl-v1.4.1.ri
+Link: intel/sof/community/sof-glk.ri -> ../apl/community/sof-apl-v1.4.1.ri
 
-File: intel/sof/bdw/sof-bdw-v1.3.ri
-Version: 1.3
-Link: intel/sof/sof-bdw.ri -> bdw/sof-bdw-v1.3.ri
+File: intel/sof/cnl/intel/sof-cnl-v1.3-0f73628.ri
+File: intel/sof/cnl/intel/sof-cnl-v1.3-0f73628.ldc
+Version: 1.3-0f73628
+File: intel/sof/cnl/intel/sof-cnl-v1.4.1.ri
+File: intel/sof/cnl/intel/sof-cnl-v1.4.1.ldc
+Version: 1.4.1
+Link: intel/sof/sof-cnl.ri -> cnl/intel/sof-cnl-v1.4.1.ri
 
-File: intel/sof/byt/sof-byt-v1.3.ri
-Version: 1.3
-Link: intel/sof/sof-byt.ri -> byt/sof-byt-v1.3.ri
-
-File: intel/sof/cht/sof-cht-v1.3.ri
-Version: 1.3
-Link: intel/sof/sof-cht.ri -> cht/sof-cht-v1.3.ri
+File: intel/sof/cnl/community/sof-cnl-v1.3-0f73628.ri
+Version: 1.3-0f73628
+File: intel/sof/cnl/community/sof-cnl-v1.4.1.ri
+File: intel/sof/cnl/community/sof-cnl-v1.4.1.ldc
+Version: 1.4.1
+Link: intel/sof/community/sof-cnl.ri -> ../cnl/community/sof-cnl-v1.4.1.ri
 
 File: intel/sof/cml/intel/sof-cml-v1.3-0f73628.ri
 File: intel/sof/cml/intel/sof-cml-v1.3-0f73628.ldc
 Version: 1.3-0f73628
-Link: intel/sof/sof-cml.ri -> cml/intel/sof-cml-v1.3-0f73628.ri
-Link: intel/sof/community/sof-cml.ri -> ../cnl/community/sof-cnl-v1.3-0f73628.ri
-
-File: intel/sof/cnl/intel/sof-cnl-v1.3-0f73628.ri
-File: intel/sof/cnl/community/sof-cnl-v1.3-0f73628.ri
-File: intel/sof/cnl/intel/sof-cnl-v1.3-0f73628.ldc
-Version: 1.3-0f73628
-
-File: intel/sof/cnl/intel/sof-cnl-v1.4.1.ri
-File: intel/sof/cnl/intel/sof-cnl-v1.4.1.ldc
-Version: 1.4.1
+Link: intel/sof/sof-cml.ri -> cnl/intel/sof-cnl-v1.4.1.ri
+Link: intel/sof/community/sof-cml.ri -> ../cnl/community/sof-cnl-v1.4.1.ri
 
 Link: intel/sof/sof-cfl.ri -> cnl/intel/sof-cnl-v1.4.1.ri
 Link: intel/sof/sof-cnl.ri -> cnl/intel/sof-cnl-v1.4.1.ri
-Link: intel/sof/community/sof-cfl.ri -> ../cnl/community/sof-cnl-v1.3-0f73628.ri
-Link: intel/sof/community/sof-cnl.ri -> ../cnl/community/sof-cnl-v1.3-0f73628.ri
+Link: intel/sof/community/sof-cfl.ri -> ../cnl/community/sof-cnl-v1.4.1.ri
 
 File: intel/sof/icl/intel/sof-icl-v1.3.ri
 Version: 1.3
@@ -3795,6 +3813,16 @@ File: intel/sof/icl/intel/sof-icl-v1.4.1.ri
 File: intel/sof/icl/intel/sof-icl-v1.4.1.ldc
 Version: 1.4.1
 Link: intel/sof/sof-icl.ri -> icl/intel/sof-icl-v1.4.1.ri
+
+File: intel/sof/icl/community/sof-icl-v1.4.1.ri
+File: intel/sof/icl/community/sof-icl-v1.4.1.ldc
+Version 1.4.1
+Link: intel/sof/community/sof-icl.ri -> ../icl/community/sof-icl-v1.4.1.ri
+
+File: intel/sof/jsl/community/sof-jsl-v1.4.1.ri
+File: intel/sof/jsl/community/sof-jsl-v1.4.1.ldc
+Version 1.4.1
+Link: intel/sof/community/sof-jsl.ri -> ../jsl/community/sof-jsl-v1.4.1.ri
 
 License: Redistributable. See LICENCE.sof_intel for details
 
